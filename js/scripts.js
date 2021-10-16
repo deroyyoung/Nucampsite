@@ -11,4 +11,21 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
-})
+
+        // reserve modal
+    $( "#reserveButton" ).click(function() {
+        $('#reserveModal').modal("show");
+      });
+
+
+      // Login Modal
+      $( "#loginButton" ).click(function() {
+        $('#loginModal').modal("show");
+      });
+
+
+
+});
+
+
+
